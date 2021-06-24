@@ -10,9 +10,9 @@ func loadEndpoints(bot *tb.Bot) {
 	handleEndpoint(bot, "!help", loadTextFile("help"), false)
 	handleEndpoint(bot, "!ayuda", loadTextFile("help"), false)
 
-	handleEndpoint(bot, "!cursos java ash", loadTextFile("cursosjavaash"), false)
-	handleEndpoint(bot, "!cursos max", loadTextFile("cursosmax"), false)
-	handleEndpoint(bot, "!recomendaciones", loadTextFile("recomendaciones"), false)
+	handleEndpoint(bot, "!cursos java ash", loadTextFile("cursosjavaash"), true)
+	handleEndpoint(bot, "!cursos max", loadTextFile("cursosmax"), true)
+	handleEndpoint(bot, "!recomendaciones", loadTextFile("recomendaciones"), true)
 
 	handleEndpoint(bot, "!acceso", loadTextFile("acceso"), false)
 	handleEndpoint(bot, "!acceso links", loadTextFile("acceso_links"), false)
