@@ -35,8 +35,7 @@ func handleEndpoint(bot *tb.Bot, route string, message string, privateMsg bool) 
 			logEndpointUsage(src, route)
 		} else {
 			// This is the default way on handling endpoints.
-			_, errSend := bot.Send(chatID, message, "html")
-			handleError(errSend, "error")
+			sendMessage(bot, chatID, message)
 			logEndpointUsage(src, route)
 		}
 	})
@@ -50,7 +49,6 @@ func sendMessage(bot *tb.Bot, chatID tb.ChatID, message string) {
 func sendMessageToAdmin(bot *tb.Bot, message string) {
 	// This is hardcoded for now, since I'm the only admin
 	chatID := tb.ChatID(1099020633)
-	_, err := bot.Send(chatID, message)
-	handleError(err, "error")
+	sendMessage(bot, chatID, message)
 	log.Warnln("Message: " + message + ". Sent to admins.")
 }
