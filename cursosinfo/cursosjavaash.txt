@@ -1,4 +1,4 @@
-<b>Cursos de Java recomendados por Ash ordenados por orden de recomendación</b>:
+<b>Cursos de Java recomendados por Ash por orden de recomendación</b>:
 
 <b>Complete Java Masterclass [2018, ENG] de Tim Buchalka</b>:
 https://bit.ly/2UDo0PH

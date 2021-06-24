@@ -1,0 +1,22 @@
+Max es el <b>Santo</b> y <b>Patrón</b> del grupo, mortales como yo solo podemos optar a puestos inferiores en el ranking de ídolos.
+
+<b>Estos son sus cursos:</b>
+
+<b>JavaScript - The Complete Guide 2021 (Beginner + Advanced):</b>
+https://bit.ly/3dakEtJ
+<b>NodeJS - The Complete Guide (incl. Deno, REST APIs, GraphQL):</b>
+https://bit.ly/35Oh707
+<b>Understanding TypeScript - 2021 Edition:</b>
+https://bit.ly/2SUO1ti
+<b>Docker & Kubernetes: The Practical Guide:</b>
+https://bit.ly/3h0Sz9j
+<b>Understanding TypeScript - 2021 Edition:</b>
+https://bit.ly/3vRshvB
+<b>MongoDB - The Complete Developer's Guide:</b>
+https://bit.ly/3xS88H0
+<b>Vue - The Complete Guide (w/ Router, Vuex, Composition API):</b>
+https://bit.ly/35O4Ad1
+<b>React Native - The Practical Guide [2021 Edition]:</b>
+https://bit.ly/2T5NRz0
+<b>Clean Code:</b>
+https://bit.ly/3wTqo31

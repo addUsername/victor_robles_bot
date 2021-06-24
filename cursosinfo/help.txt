@@ -6,5 +6,6 @@
 <b>!asignaturas primero</b> -> Información de que trata cada asignatura en primero.
 <b>!asignaturas segundo daw</b> -> Información de que trata cada asignatura en segundo de DAW.
 
-<b>!cursos java ash</b> -> Muestra los cursos de java recomendados por Ash.
+<b>!cursos max</b> -> Muestra los cursos de Max.
+<b>!cursos java ash</b> -> Muestra los cursos de Java recomendados por Ash.
 <b>!recomendaciones</b> -> Muestra las recomendaciones de los usuarios del grupo.
