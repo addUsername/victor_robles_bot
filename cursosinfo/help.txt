@@ -1,0 +1,10 @@
+<b>Comandos disponibles</b>
+
+<b>!help / !ayuda</b> -> Muestra este mensaje.
+<b>!acceso</b> -> Información básica sobre primero.
+<b>!acceso links</b> -> Información sobre el proceso de admisión.
+<b>!asignaturas primero</b> -> Información de que trata cada asignatura en primero.
+<b>!asignaturas segundo daw</b> -> Información de que trata cada asignatura en segundo de DAW.
+
+<b>!cursos java ash</b> -> Muestra los cursos de java recomendados por Ash.
+<b>!recomendaciones</b> -> Muestra las recomendaciones de los usuarios del grupo.

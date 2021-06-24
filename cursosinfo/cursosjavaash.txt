@@ -1,0 +1,14 @@
+<b>Cursos de Java recomendados por Ash ordenados por orden de recomendación</b>:
+
+<b>Complete Java Masterclass [2018, ENG] de Tim Buchalka</b>:
+https://bit.ly/2UDo0PH
+<b>Java Tutorial for Beginners</b>:
+https://www.youtube.com/watch?v=eIrMbAQSU34
+<b>Learn Java 8 - Full Tutorial for Beginners de freeCodeCamp.org</b>:
+https://www.youtube.com/watch?v=grEKMHGYyns
+
+
+<b>Reviews</b>:
+
+<b>Alexsh26</b>:
+"Hay un señor grandote que tiene problemas al hablar muy rápido que se llama Tim Buchalka en Udemy que tiene un curso bastante intenso de Java. Pero eso sí, recomiendo que practiques y tal por que el tío va a piñón y con lenguaje técnico a muerte."

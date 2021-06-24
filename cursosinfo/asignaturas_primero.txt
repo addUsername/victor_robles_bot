@@ -1,0 +1,30 @@
+<b>Asignaturas de primero:</b>
+Tienes 2 asignaturas troncales: <b>BBDD y Programación</b>.
+
+El resto son:
+
+<b>Entornos de Desarrollo:</b>
+Asignatura donde te van a enseñar técnicas de trabajo y las diferentes herramientas que son necesarias para un programador. Está orientado a la colaboración entre programadores en la empresa.
+
+<b>Web o lenguaje de marcas:</b>
+Empezarán a enseñarte cómo se hace una web sólo con sus elementos básicos: como son  texto e imágenes (sin un aspecto visual agradable).
+Más tarde te enseñarán CSS que es el lenguaje para maquetar HTML.
+En las últimas semanas del curso te enseñarán Javascript, que es el lenguaje de programación para hacer que el HTML y CSS sean dinámicos.
+
+<b>Sistemas:</b>
+Esta asignatura es de relleno total, es puramente teórica porque así es como el Ministerio ha decidido que se haga el temario. Intenta sacártela de encima cuanto antes.
+
+<b>FOL (derecho laboral):</b>
+Asignatura de relleno que no aporta ninguna solución a los problemas que te encontrarás en el trabajo. Al igual que Sistemas, intenta sacártela de encima cuanto antes.
+
+<b>Inglés:</b>
+Aunque la asignatura sea relleno, es importante que aprendas inglés: es una herramienta fundamental a la hora de buscar recursos y comunicarte, permitiéndote optar a más y mejores trabajos.
+
+<b>Programación:</b>
+Empezarán (con suerte) enseñándote conceptos generales.
+¿Qué es la programación?, ¿cuáles son los pasos a seguir para realizar un programa?, ¿cómo sabemos cuál es la solución más adecuada?.
+
+Más tarde plasmarás eso en los llamados <b>diagramas de flujo</b>.
+Al acabar el primer trimestre (y probablemente tu segundo examen), pasarás esos diagramas a PSeInt, el cual se autodescribe como un lenguaje de programación para personas que empiezan a programar: <i>pseudocódigo</i>.
+
+Finalmente y hasta concluir el año se dará <b>Java</b>, el cual es un lenguaje de programación orientado a objetos y además tipado. Con el tiempo los profesores te explicarán qué es esto y por qué este tipo de lenguajes son de los más utilizados.

@@ -1,0 +1,26 @@
+<b>Asignaturas segundo de DAW:</b>
+Hay dos asignaturas que destacan del resto: <b>Desarrollo en entorno cliente y Desarrollo en entorno servidor</b>.
+
+<b>Desarrollo en entorno cliente:</b>
+Se enseña el lenguaje de <b>Javascript</b>, orientado a desarrollar, principalmente, en navegadores web. Aprenderás la sintaxis del lenguaje, objetos, estructuras, eventos, etc. También se suelen dar librerías como JQuery, y algún framework aunque no en mucha profundidad.
+
+<b>Desarrollo en entorno servidor:</b>
+Aquí se imparte principalmente <b>PHP</b> junto a <b>MySQL</b>. Se da generación dinámica de páginas web, acceso/consultas a bases de datos para construir webs interactivas y servicios web. Al igual que entorno cliente, se suelen dar frameworks como Laravel o Symfony.
+
+<b>Despliegue de aplicaciones web:</b>
+Verás cómo desplegar, mantener y actualizar aplicaciones web en los servidores. Dependerá del centro, pero lo normal es usar XAMPP(Windows) o LAMPP(Linux). También se suele dar Git para el control de versiones de la aplicación en sí.
+
+<b>Diseño de interfaces web:</b>
+Será la creación de las interfaces de una web, partiendo desde el boceto hasta la maquetación en código. Normalmente se da Bootstrap (librería de CSS) que ayuda mucho a la creación de estas. Se dan también temas de accesibilidad y usabilidad.
+
+<b>Empresa e iniciativa emprendedora:</b>
+Asignatura común en todos los FPs. Se enseña a desarrollar iniciativas emprendedoras como formas de autoempleo (negocios, autónomo, etc.) También se dan derechos del trabajador, entre otras cosas que pueden resultar útiles.
+
+<b>Proyecto de desarrollo de aplicaciones web:</b>
+En esta asignatura tendrás que usar todo lo aprendido en el grado para construir una aplicación web desde 0. Incluyendo una parte de cliente y otra de servidor.
+
+<b>Formación en centros de trabajo:</b>
+Las conocidas prácticas en empresa, donde aprenderás a cómo se desarrolla el trabajo de desarrollador web en una empresa. Variará mucho de la empresa a la que entres a hacerlas. Los propios centros se encargan de dar empresas a los alumnos, o se las pueden buscar por su cuenta.
+
+<b>Hora de libre configuración:</b>
+Asignatura que varía según el curso y no en todos los centros se imparte. Suele ser una asignatura complementaria a otra (por ejemplo más profundidad en bases de datos). Dependerá del año y del centro.

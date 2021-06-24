@@ -1,0 +1,12 @@
+<b>Información básica sobre primero:</b>
+
+Primero de DAW y DAM son comunes, hay 3 modalidades principales: 
+
+Presencial, a distancia (semipresencial) y online. Deberás decidir si cursarlas en un centro público o privado; los centros públicos tienen plazos de admisión (consulta el de tu comunidad autónoma) y diferentes vías de acceso, a la vez que un cupo de % de alumnos provenientes de:
+<b>Vía 1:</b> Bachillerato. (Cupo sobre el: 60%)
+<b>Vía 2:</b> Prueba de acceso (superior y universidad). (Cupo sobre el: 15%)
+<b>Vía 3:</b> Grado medio, universidad, otra FP superior. (Cupo sobre el: 15%)
+<b>Vía 4:</b> Deportistas de élites y forocheros. (Cupo sobre el: 10%)
+
+Si quieres consultar información sobre tu comunidad, usa:
+<b>!acceso links</b>
