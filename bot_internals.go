@@ -12,7 +12,7 @@ func createBot() *tb.Bot {
 		// The 10 second timeout it's the default and recommended setting, a lower number seems to affect performance.
 		Poller: &tb.LongPoller{Timeout: 10 * time.Second},
 	})
-	handleError(err, true)
+	handleError(err, "fatal")
 
 	// Logging
 	log.Infoln("Bot connected to Telegram Servers")
@@ -29,14 +29,14 @@ func handleEndpoint(bot *tb.Bot, route string, message string, privateMsg bool) 
 		if privateMsg {
 			_, errSend := bot.Send(src.Sender, message, "html")
 			if !handleError403(bot, chatID, errSend) {
-				handleError(errSend, false)
+				handleError(errSend, "error")
 				sendMessage(bot, chatID, "Te lo he enviado por privado shur")
 			}
 			logEndpointUsage(src, route)
 		} else {
 			// This is the default way on handling endpoints.
 			_, errSend := bot.Send(chatID, message, "html")
-			handleError(errSend, false)
+			handleError(errSend, "error")
 			logEndpointUsage(src, route)
 		}
 	})
@@ -44,13 +44,13 @@ func handleEndpoint(bot *tb.Bot, route string, message string, privateMsg bool) 
 
 func sendMessage(bot *tb.Bot, chatID tb.ChatID, message string) {
 	_, err := bot.Send(chatID, message, "html")
-	handleError(err, false)
+	handleError(err, "error")
 }
 
 func sendMessageToAdmin(bot *tb.Bot, message string) {
 	// This is hardcoded for now, since I'm the only admin
 	chatID := tb.ChatID(1099020633)
 	_, err := bot.Send(chatID, message)
-	handleError(err, false)
+	handleError(err, "error")
 	log.Warnln("Message: " + message + ". Sent to admins.")
 }

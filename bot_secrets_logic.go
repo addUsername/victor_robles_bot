@@ -16,12 +16,12 @@ func getToken() string {
 
 	// Starts the client and logs in
 	client, errClient := api.NewClient(config)
-	handleError(errClient, true)
+	handleError(errClient, "fatal")
 	client.SetToken(vaultToken)
 
 	// Reads the secret data
 	secret, errSecret := client.Logical().Read("secret/data/" + secretLocation)
-	handleError(errSecret, true)
+	handleError(errSecret, "fatal")
 
 	// Maps the secret data so we can access the parts we need (the decrypted key value)
 	mapping, errMap := secret.Data["data"].(map[string]interface{})

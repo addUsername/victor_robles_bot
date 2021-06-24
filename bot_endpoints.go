@@ -23,8 +23,6 @@ func loadTextFile(textFileName string) string {
 	folder := "cursosinfo/"
 	fileName := folder + textFileName + ".txt"
 	fileBytes, err := ioutil.ReadFile(fileName)
-	if err != nil {
-		log.Warnln(err)
-	}
+	handleError(err, "warn")
 	return string(fileBytes)
 }
