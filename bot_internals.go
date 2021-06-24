@@ -47,6 +47,7 @@ func handleEndpoint(bot *tb.Bot, route string, message string, privateMsg bool) 
 }
 
 func sendMessage(bot *tb.Bot, chatID tb.ChatID, message string) {
+	// options: markdown doesn't seem to work, instead it uses html.
 	_, err := bot.Send(chatID, message, "html")
 	handleError(err, "error")
 }

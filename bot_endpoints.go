@@ -16,6 +16,7 @@ func loadEndpoints(bot *tb.Bot) {
 	handleEndpoint(bot, "!acceso", loadTextFile("acceso"), false)
 	handleEndpoint(bot, "!acceso links", loadTextFile("acceso_links"), false)
 	handleEndpoint(bot, "!asignaturas primero", loadTextFile("asignaturas_primero"), true)
+	handleEndpoint(bot, "!asignaturas segundo daw", loadTextFile("asignaturas_segundo_daw"), true)
 }
 
 func loadTextFile(textFileName string) string {
