@@ -3,6 +3,15 @@ Tienes 2 asignaturas troncales: <b>BBDD y Programación</b>.
 
 El resto son:
 
+<b>Programación:</b>
+Empezarán (con suerte) enseñándote conceptos generales.
+¿Qué es la programación?, ¿cuáles son los pasos a seguir para realizar un programa?, ¿cómo sabemos cuál es la solución más adecuada?.
+
+Más tarde plasmarás eso en los llamados <b>diagramas de flujo</b>.
+Al acabar el primer trimestre (y probablemente tu segundo examen), pasarás esos diagramas a PSeInt, el cual se autodescribe como un lenguaje de programación para personas que empiezan a programar: <i>pseudocódigo</i>.
+Finalmente y hasta concluir el año se dará <b>Java</b>, el cual es un lenguaje de programación orientado a objetos y además tipado. Con el tiempo los profesores te explicarán qué es esto y por qué este tipo de lenguajes son de los más utilizados.
+
+
 <b>Entornos de Desarrollo:</b>
 Asignatura donde te van a enseñar técnicas de trabajo y las diferentes herramientas que son necesarias para un programador. Está orientado a la colaboración entre programadores en la empresa.
 
@@ -19,12 +28,3 @@ Asignatura de relleno que no aporta ninguna solución a los problemas que te enc
 
 <b>Inglés:</b>
 Aunque la asignatura sea relleno, es importante que aprendas inglés: es una herramienta fundamental a la hora de buscar recursos y comunicarte, permitiéndote optar a más y mejores trabajos.
-
-<b>Programación:</b>
-Empezarán (con suerte) enseñándote conceptos generales.
-¿Qué es la programación?, ¿cuáles son los pasos a seguir para realizar un programa?, ¿cómo sabemos cuál es la solución más adecuada?.
-
-Más tarde plasmarás eso en los llamados <b>diagramas de flujo</b>.
-Al acabar el primer trimestre (y probablemente tu segundo examen), pasarás esos diagramas a PSeInt, el cual se autodescribe como un lenguaje de programación para personas que empiezan a programar: <i>pseudocódigo</i>.
-
-Finalmente y hasta concluir el año se dará <b>Java</b>, el cual es un lenguaje de programación orientado a objetos y además tipado. Con el tiempo los profesores te explicarán qué es esto y por qué este tipo de lenguajes son de los más utilizados.
