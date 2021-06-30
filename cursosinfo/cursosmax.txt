@@ -10,8 +10,6 @@ https://bit.ly/35Oh707
 https://bit.ly/2SUO1ti
 <b>Docker & Kubernetes: The Practical Guide:</b>
 https://bit.ly/3h0Sz9j
-<b>Understanding TypeScript - 2021 Edition:</b>
-https://bit.ly/3vRshvB
 <b>MongoDB - The Complete Developer's Guide:</b>
 https://bit.ly/3xS88H0
 <b>Vue - The Complete Guide (w/ Router, Vuex, Composition API):</b>
