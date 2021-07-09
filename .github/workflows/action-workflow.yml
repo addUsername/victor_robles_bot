@@ -1,0 +1,23 @@
+name: Workflow for our actions
+ 
+on: 
+  pull_request:
+    types: [labeled]
+ 
+jobs:
+  run-javascript-action:
+    if: ${{ github.event.label.name == 'tfg' }}
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - uses: actions/checkout@v1
+ 
+      - name: JavaScript auto merge
+        uses: ./.github/actions/Add_TFG
+        id: action-automerge
+        with:
+          pull_request_id: ${{ github.event.pull_request.number }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+ 
+      - name: Print JavaScript output
+        run: echo ${{ steps.action-automerge.outputs.output_mssg }}
