@@ -1,0 +1,24 @@
+name: 'Add TFG'
+author: 'addUsername'
+description: 'Collects and auto-merges PR made on tfg.md'
+ 
+inputs:
+  pull_request_id:
+    description: 'Short description'
+    required: true
+
+  repo_token:
+    description: "token api"
+    required: true
+
+outputs:
+  output_mssg:
+    description: 'Outputs error or true if succesfully merged'
+
+runs:
+  using: "node12"
+  main: "main.js"
+
+branding:
+  icon: 'rotate-cw'
+  color: 'blue'
