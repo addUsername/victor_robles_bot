@@ -6,7 +6,7 @@ const owner = "narvikd";
 const repo = "victor_robles_bot";
 const id = core.getInput("pull_request_id");
 const token = core.getInput("repo_token");
-const branch = "main";
+const branch = "master";
 const filename = "TFG.md";
 
 
