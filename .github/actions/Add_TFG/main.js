@@ -2,7 +2,7 @@ const core = require("@actions/core");
 // npm install node-fetch
 const fetch = require("node-fetch");
 
-const owner = "narvikd";
+const owner = "addUsername";
 const repo = "victor_robles_bot";
 const id = core.getInput("pull_request_id");
 const token = core.getInput("repo_token");
@@ -15,7 +15,7 @@ const url_pull_request =
 var merge_commit_sha;
 var json;
 
-//console.log("first RESPONSE (GET PR)");
+console.log("first RESPONSE (GET PR)");
 fetch(url_pull_request)
   .then((r) => {
     if (!r.ok) {
@@ -24,7 +24,7 @@ fetch(url_pull_request)
     return r.json();
   })
   .then((data) => {
-    //console.log("BIGG")  
+    console.log("BIGG")  
     //console.log(data)
     if (!data.mergeable) {
       return Promise.reject("PR is not mergeable");
