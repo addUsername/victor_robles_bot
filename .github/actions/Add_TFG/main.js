@@ -2,7 +2,7 @@ const core = require("@actions/core");
 // npm install node-fetch
 const fetch = require("node-fetch");
 
-const owner = "addUsername";
+const owner = "narvikd";
 const repo = "victor_robles_bot";
 const id = core.getInput("pull_request_id");
 const token = core.getInput("repo_token");
@@ -15,7 +15,6 @@ const url_pull_request =
 var merge_commit_sha;
 var json;
 
-console.log("first RESPONSE (GET PR)");
 fetch(url_pull_request)
   .then((r) => {
     if (!r.ok) {
@@ -24,8 +23,6 @@ fetch(url_pull_request)
     return r.json();
   })
   .then((data) => {
-    console.log("BIGG")  
-    //console.log(data)
     if (!data.mergeable) {
       return Promise.reject("PR is not mergeable");
     }
@@ -41,20 +38,17 @@ fetch(url_pull_request)
   })
   .then((data) => {
     json = data;
-    //console.log(json);
     if (!checkPr(json)) {
       return Promise.reject(filename + " has not passed pr test");
     }
     console.log("checkPr OK");
-    // Fetch another API
+
     const diff = json[0].patch.split("\n+");
     const columns = diff[1].split("|").map((item) => item.trim());
     if (!check_addition(columns)) {
       return Promise.reject(filename + " has not passed addition test");
     }
     console.log("check_addition OK");
-    //console.log("Second RESPONSE (PING REPO)");
-    //console.log(columns[2]);
     return fetch(columns[2]);
   })
   .then((r) => {
@@ -74,7 +68,7 @@ fetch(url_pull_request)
     );
   })
   .then((r) => {
-    //console.log("Third RESPONSE (MERGE)");
+    
     if (!r.ok) {
       console.log("not merged");
       console.log(r);
